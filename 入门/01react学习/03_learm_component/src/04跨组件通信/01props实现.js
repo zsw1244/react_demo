@@ -1,0 +1,45 @@
+import React, { Component } from 'react'
+
+function ProfileHeader(props){
+  return (
+    <div>
+      <div>
+        <h2>用户昵称：{props.nickname}</h2>
+        <h2>用户等级：{props.level}</h2>
+      </div>
+    </div>
+  )
+}
+
+function Profile(props){
+  return (
+    <div>
+      {/* <ProfileHeader  nickname={props.nickname} level={props.level}></ProfileHeader> */}
+      <ProfileHeader  {...props}></ProfileHeader>
+      <ul>
+        <li>设置1</li>
+        <li>设置2</li>
+        <li>设置3</li>
+        <li>设置4</li>
+      </ul>
+    </div>
+  )
+}
+
+export default class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      nickname:"tom",
+      level:99
+    }
+  }
+  render() {
+    return (
+      <div>
+        {/* <Profile nickname={nickname} level={level}></Profile> */}
+        <Profile {...this.state}></Profile>
+      </div>
+    )
+  }
+}

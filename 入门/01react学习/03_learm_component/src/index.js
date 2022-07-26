@@ -1,0 +1,42 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+// import App fro./01组件通信/01组件使用01组件使用';
+// import App from './01组件通信/02生命周期'
+// import App from './01组件通信/03组件间的嵌套'
+// import App from './01组件通信/04父传子通信-类组件'
+// import App from './01组件通信/05父传子通信-函数组件'
+// import App from './01组件通信/06父传子通信-属性验证'
+// import App from './01组件通信/07子传父通信-函数传递'
+// import App from './02组件通信案列/App'
+// import App from './03插槽的实现/App'
+// import App from './04跨组件通信/04多值传递'
+// import App from './05setstate使用/01_为什么使用setState'
+// import App from './05setstate使用/02_setState是异步更新'
+// import App from './05setstate使用/03_setState是同步更新'
+// import App from './06React性能优化/01_列表中keys的作用'
+// import App from './06React性能优化/02_组件嵌套的render调用'
+// import App from './06React性能优化/03_shouldComponentUpdate'
+// import App from './06React性能优化/04_PureComponent'
+// import App from './06React性能优化/05_memo的使用'
+// import App from './07前面知识点补充/01_setState不可变的力量'
+// import App from './07前面知识点补充/02_全局事件传递'
+// import App from './08受控和非受控组件/01_refs的使用'
+// import App from './08受控和非受控组件/02_受控组件的基本使用'
+// import App from './08受控和非受控组件/03_受控组件-select的使用'
+// import App from './08受控和非受控组件/04_受控组件-多输入'
+// import App from './08受控和非受控组件/05_非受控组件的使用'
+// import App from './09高阶组件的使用/01_高阶组件的定义方式'
+// import App from './09高阶组件的使用/02_高阶组件应用-增强props'
+// import App from './09高阶组件的使用/03_高阶组件应用-增强props-默认'
+// import App from './09高阶组件的使用/04_高阶组件应用-增强props-改进'
+// import App from './09高阶组件的使用/05_高阶组件应用-登录鉴权操作'
+// import App from './09高阶组件的使用/06_高阶组件应用-生命周期劫持-默认'
+// import App from './09高阶组件的使用/07_高阶组件应用-生命周期劫持-增强'
+// import App from './10组件内容补充/01_ref的转发'
+// import App from './10组件内容补充/02_portals的使用'
+// import App from './10组件内容补充/03_fragments的使用'
+import App from './10组件内容补充/04_strictMode的使用'
+ReactDOM.render(
+    <App />,
+  document.getElementById('root')
+);
